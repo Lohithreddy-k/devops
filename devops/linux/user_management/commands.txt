@@ -1,0 +1,12 @@
+sudo su -> to switch to root user only in ec2 user
+adduser/useradd username -> to create the user
+passwd username -> to set the password for the created user
+su username -> to switch to the created user
+deluser/userdel username -> to delete the created user
+cat /etc/passwd -> to see the list of users
+cat /etc/group -> to see the groups list
+groupadd groupname -> to create the group
+gpasswd groupname -> to set the password for the group
+usermod -a -G/-aG groupname username ->to add the users to group
+gpasswd -d usermane groupname -> to delete the user from the group
+groupdel groupname -> to delete the group
