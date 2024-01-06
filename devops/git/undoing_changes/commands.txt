@@ -1,0 +1,16 @@
+git config --edit ->to edit the configuration
+git remote rm origin ->to remove the remote repo url
+git checkout filename ->to make changes in files in working directory
+git checkout . ->to make change all files in wd
+git remote -v ->to see the all remote repository linked to local
+git reset filename ->to reset/undo changes by which will delete the commit and do the changes
+git reset --soft ->to undo changes from localrepo to staging area
+git reset --hard ->to undo changes from localrepo to working directory
+git commit --ammend commitid ->it is used to edit the most recent commit
+git fetch url ->which will get the changes/modified files from remote repo to local repo by creating new file
+git pull url(fetch+merge) -> it is used to fetch modified files which will be merge/update with the existing files
+git clone branch url ->to download the perticular branch to local repo
+git revert filename ->to undo the changes by creating the new commit
+git diff branch1 branch2 -> to see the difference between 2 branches
+git commit filename -m "message" ->to commit perticular file which is in staging area
+

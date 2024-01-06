@@ -1,0 +1,21 @@
+mkdir filename -> to create the new directory
+mkdir -p dir/subdir/subdir2 -> to create the directory and sub directory in the directory
+mkdir dir1 dir2 -> to create the multiple directories
+mkdir -p dir/{dir1,dir2,dir3} -> to create directory in that multiple directories
+cd dirname -> to change the directory
+cd .. -> to switch back to previous directory
+touch filename/file1 file2 file3/filename{1..n}.extension -> to create new files
+pwd -> it shows the path of present directory
+ls -> list all files and directorys
+ls -a -> shows all the files including hidden files
+ls -l -> shows that are the permissions are permited to the files or directory
+rmdir dirname -> to delete the empty directory
+rm filename -> to delete the files
+rm -r dirname ->to delete the directory and files present in dir 
+cat filename -> to see the content in the file
+echo "msg" -> to print 
+man -> mannual of commands
+whoami -> it shows the who is the user of file
+clear -> to clear screen
+history -> it shows the history of commands
+vi filename/nano filename -> to edit the file

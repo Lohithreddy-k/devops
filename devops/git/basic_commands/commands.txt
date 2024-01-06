@@ -1,0 +1,24 @@
+git init -> to initialization
+git config user.name "username" -> to configure name
+git config user.email "mail" -> to config email
+git add ./--all/-A -> to add all files
+git add filename -> to add perticular file
+git add *.extension -> to add perticular extension files
+git commit -m "message"/-am -> to commit the added files
+git remote add origin "url" -> to link remote repo
+git push origin master/branchname -> to push the data to remote repo
+git status -> to see the difference between working directory and staging area(files are added and commit or not)
+git log /--oneline/-number/-(or)not-filename -> to see the history of commits
+git clone "url" ->to get the remote repo files to local rep
+git rm --cached filename -> to remove files in remote repo
+git branch branchname ->to create new branch
+git checkout/switch branchname ->to switch the branch
+git checkout -b branchname ->to create and switch branch at a time
+git branch/branch --list ->to see the branches
+git merge branchname ->to merge the branches
+git rebase branchname ->to merge the branch without creating the new commit
+git cherry-pick commitid ->to merge the perticular commit changes
+git branch -d branchname ->to delete the branch without editing or making changes to branch 
+git branch -D branchname ->to delete the branch after editing files in local
+git reflog ->to see the difference of commits
+git push origin -d branchname ->to delete the branch in remote repo but not in local repo  

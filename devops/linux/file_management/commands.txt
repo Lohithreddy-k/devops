@@ -1,0 +1,3 @@
+mv filename directoryname -> to move the files from one directory to another directory
+cp filename directoryname -> to copy the files from one directory to another directory
+mv oldfilename newfilename -> to rename the file
